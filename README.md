@@ -67,4 +67,4 @@ Ce notebook adopte une approche économétrique classique, en modélisant sépar
     -   Une **simulation de Monte Carlo** est lancée pour générer de multiples trajectoires de prix possibles autour de la prévision centrale, fournissant une distribution des résultats potentiels.
 5.  **Analyse des Résultats :**
     -   Visualisation des prévisions de rendements, de prix, et de volatilité.
-    -   Affichage du "cône" des simulations de Monte Carlo.
+    -   Affichage du cône des simulations de Monte Carlo.
