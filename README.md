@@ -29,7 +29,7 @@ Le projet vise à fournir un cadre d'analyse complet, de la collecte des donnée
 
 Le projet est organisé en deux notebooks Jupyter distincts, chacun représentant une approche de modélisation.
 
-### 📂 `01_machine_learning_forecast.ipynb`
+**➡️ [Voir le Notebook : `01_machine_learning_forecasting.ipynb`](./01_machine_learning_forecasting.ipynb)**
 
 Ce notebook implémente un pipeline de prévision basé sur le Machine Learning. L'approche est multivariée : le modèle apprend à prédire simultanément l'ETF et les indicateurs macroéconomiques.
 
@@ -38,17 +38,17 @@ Ce notebook implémente un pipeline de prévision basé sur le Machine Learning.
 2.  **Préparation et Ingénierie des Caractéristiques :**
     -   Synchronisation et nettoyage des séries temporelles.
     -   Normalisation des données (StandardScaler).
-    -   Transformation des séries en séquences `(look_back)` pour l'apprentissage supervisé.
+    -   Transformation des séries en séquences pour l'apprentissage supervisé.
 3.  **Optimisation et Entraînement du Modèle :**
     -   Recherche du meilleur ratio entraînement/test pour optimiser la performance prédictive (MSE).
-    -   Entraînement d'un modèle de **Régression Bayésienne** pour prédire la valeur de chaque variable au pas de temps suivant, en se basant sur les valeurs passées de toutes les variables.
+    -   Entraînement d'un modèle de **Régression** pour prédire la valeur de chaque variable au pas de temps suivant, en se basant sur les valeurs passées de toutes les variables.
 4.  **Génération de Prévisions Futures :**
     -   Mise en œuvre d'une boucle de prédiction autorégressive pour générer des prévisions sur un horizon de plusieurs mois. Le modèle utilise ses propres prédictions comme entrées pour les étapes suivantes.
 5.  **Analyse des Résultats :**
     -   Visualisation des performances du modèle sur les ensembles d'entraînement et de test.
     -   Affichage du tableau des prévisions futures dé-normalisées.
 
-### 📂 `02_econometric_forecasting_(sarimax_garchx).ipynb`
+**➡️ [Voir le Notebook : `02_econometric_forecasting_(sarimax_garchx).ipynb`](./02_econometric_forecasting_(sarimax_garchx).ipynb)**
 
 Ce notebook adopte une approche économétrique classique, en modélisant séparément la tendance (rendements) et la volatilité.
 
